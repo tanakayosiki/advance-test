@@ -1,0 +1,31 @@
+body{
+    width: 1230px;
+    height: 1230px;
+    position: relative;
+}
+
+.thanks__message{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.thanks__message-content{
+    margin-bottom: 30px;
+}
+.thanks__button{
+    margin :0 auto;
+    text-align: center;
+}
+
+.thanks__button-top-page{
+    width:100%;
+    background-color: black;
+    color:white;
+    padding:15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+}
